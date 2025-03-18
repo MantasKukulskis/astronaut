@@ -1,161 +1,57 @@
+/* css custom properties -> "css kintamieji" */
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    padding: 26px 0;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 80px;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-main {
-    padding: 0 24px 0 48px;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    gap: 35px;
-}
-
-header {
-    padding: 0 48px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #333;
-    
-
-}
-
-header > img {
-    object-fit: contain;
-    object-position: left;
-    width: auto;
-    height: 24px;
-    display: flex;
-
-}
-
-nav {
-    padding: 8px 16px;
-    display: flex;
-    gap: 30px;
-    transition: all 0.3s ease;
-    color: #333;
-
-}
-
-nav > a:hover {
-    
-    transform: translateY(5px);
-   color: #333;
-    background: grey;
-    color: aliceblue;
-}
-
-nav > a {
-    font-family: 'Inter';
-    font-size: 14px;
-    font-weight:  600;
-    text-decoration: none;
-    
-}
-
-footer {
-    padding: 0 48px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer > nav > a {
-    opacity: 0.7
-}
-
-footer > p {
-    font-size: px;
-}
-
-main > img {
-    
-}
-
-main > div {
-    display: flex;
-    flex-direction: column;
-}
-
-div > p:nth-child(1) {
-    font-size: 48px;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1;
-    gap: 8px;
-
-}
-div > p:nth-child(2) {
-    font-size: 48px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    line-height: 1;
-    position: relative;
-}
-div > p:nth-child(3) {
-   margin: 32px 0;
-}
-
-div > p:nth-of-type(2)::after {
-    position: absolute;
-    content: '';
-    width: 150px;
-    height: 3px;
-    background-color: #55337A;
-    bottom: -15px;
-    left: 2px;
-    
-
-}
- 
-.links {
-    width: 100%;
-    display: flex;
-    gap: 24px;
-}
- 
-.links > a {
-    padding: 0 42px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 2px solid #55337A;
-    border-radius: 24px;
-    line-height: 1;
-    transition: all 0.3s ease;
-}
-
-.links > a:nth-child(1) {
-    background-color: #55337A;
-    color: #fff;
-}
-
-.links > a:nth-child(2) {
-    color: #55337A;
-}
-
-.links > a:hover {
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
-}
+  }
+  
+  body {
+  }
+  
+  header,
+  main,
+  footer {
+    --w: 1000px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+  }
+  
+  header > img {
+  }
+  
+  nav {
+  }
+  
+  nav > a {
+  }
+  
+  main > div {
+  }
+  
+  div > p:nth-of-type(1) {
+  }
+  div > p:nth-of-type(2) {
+  }
+  div > p:nth-of-type(3) {
+  }
+  
+  div > div:nth-of-type(1) {
+  }
+  div > div:nth-of-type(2) {
+  }
+  
+  div > div:nth-of-type(2) > a:first-child {
+  }
+  div > div:nth-of-type(2) > a:last-child {
+  }
+  
+  main > img {
+  }
+  
+  footer > div {
+  }
+  
+  footer > div > a {
+  }
+  
+  footer > p {
+  }
