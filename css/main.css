@@ -71,7 +71,8 @@ div > div:nth-of-type(2) > a:first-child {
   line-height: 20px;
   padding: 20px 40px;
   border-radius: 30px;
-  background-color: violet;
+  text-transform: none;
+  background-color: #649;
 }
 div > div:nth-of-type(2) > a:last-child {
   float: left;
